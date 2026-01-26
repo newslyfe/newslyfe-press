@@ -16,16 +16,6 @@
   You decide what to follow and filter. No registration required.
 </p>
 
-<p align="center">
-  <strong>International News Aggregator &amp; Analyst</strong><br>
-  Chronological. Algorithm-free. Privacy-focused.
-</p>
-
-<!-- PITCH SZÖVEG -->
-<p align="center">
-  NewsLyfe aggregates news from <strong>nearly 200 countries</strong>, allowing you to follow global events directly from sources in your own language. We do not rank or filter. You get total control over your information diet.
-</p>
-
 <!-- BADGES -->
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile">
