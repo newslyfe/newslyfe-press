@@ -1,26 +1,55 @@
 # NewsLyfe — News Workspace (Developer Preview)
 
 <p align="center">
-  <img src="docs/logo/logo.png" alt="NewsLyfe Logo" width="40%" />
+  <img src="docs/logo/logo.png" alt="NewsLyfe Logo" width="120" />
 </p>
 
-<!-- Mobile Showcase: three vertical images in a single row -->
+<h1 align="center">NewsLyfe</h1>
 <p align="center">
-  <strong>Mobile Showcase</strong>
+  <strong>International News Aggregator &amp; Analyst</strong><br>
+  Chronological. Algorithm-free. Privacy-focused.
 </p>
-<table width="100%">
-  <tr>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/1-k-globalnews.png" alt="Global News" style="width:90%;max-width:200px;" />
-    </td>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/2-AI%20News%20Analyst.png" alt="AI News Analyst" style="width:90%;max-width:200px;" />
-    </td>
-    <td align="center" width="33%">
-      <img src="docs/screenshots/3-Smart%20alerts.png" alt="Smart Alerts" style="width:90%;max-width:200px;" />
-    </td>
-  </tr>
-</table>
+
+<!-- PITCH SZÖVEG -->
+<p align="center">
+  NewsLyfe aggregates news from <strong>nearly 200 countries</strong>, allowing you to follow global events directly from sources in your own language. We do not rank or filter. You get total control over your information diet.
+</p>
+
+<!-- BADGES -->
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile">
+    <img src="https://img.shields.io/badge/Google_Play-Download-green?style=for-the-badge&logo=google-play" alt="Get it on Google Play" />
+  </a>
+  <img src="https://img.shields.io/badge/Status-Public_Beta-orange?style=for-the-badge" />
+</p>
+
+<!-- 1. APP SZEKCIÓ (HERO KÉP) -->
+<h2 align="center">📱 Mobile Experience</h2>
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile">
+    <img src="docs/screenshots/play-n-K.png" alt="NewsLyfe Mobile App" width="100%" />
+  </a>
+</p>
+
+<!-- APP FEATURES -->
+### ✨ Key Mobile Features
+- 🌍 **Global Reach:** Content from nearly 200 countries.
+- 🗣️ **Instant Translation:** Translate article previews with one tap.
+- 🔔 **Smart Alerts:** Keyword-based notifications in 90+ languages.
+- 🤖 **AI Analysis (Experimental):** Ask questions about articles for instant context.
+
+<br>
+<br>
+
+<!-- 2. WEB/DESKTOP SZEKCIÓ (ELKÜLÖNÍTVE) -->
+<h2 align="center">🖥️ Desktop Workspace</h2>
+<p align="center">
+  The desktop version brings native software functionality to the browser for power users.
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/web-full.png" alt="Desktop Interface" width="70%" style="max-width:900px;" />
+</p>
 
 <!-- Visual Feed (átmenet) - teljes szélességű lila háttér kép -->
 <p align="center">
