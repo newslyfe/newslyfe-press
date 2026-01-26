@@ -1,28 +1,17 @@
-# NewsLyfe — News Workspace (Developer Preview)
+# NewsLyfe
 
 <p align="center">
   <img src="docs/logo/logo.png" alt="NewsLyfe Logo" width="120" />
 </p>
 
-<h1 align="center">NewsLyfe</h1>
-<p align="center">
-  Algorithm-free, chronological news aggregator.<br>
-  Global sources. User control.
-</p>
+Real-time news aggregator handling ~100,000 articles daily from 7,000 sources across 200 countries.
 
-<p align="center">
-  NewsLyfe displays news without ranking or recommendation algorithms.<br>
-  Content arrives chronologically, directly from sources.<br>
-  You decide what to follow and filter. No registration required.
-</p>
+**Core principle:** Chronological display only. No ranking, no recommendations, no algorithmic filtering.
 
-<!-- BADGES -->
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile">
-    <img src="https://img.shields.io/badge/Google_Play-Download-green?style=for-the-badge&logo=google-play" alt="Get it on Google Play" />
-  </a>
-  <img src="https://img.shields.io/badge/Status-Public_Beta-orange?style=for-the-badge" />
-</p>
+**Tech stack:** React, IndexedDB, tab-based workspace architecture. Available as Android app and desktop web/Electron client.
+
+[![Public Beta](https://img.shields.io/badge/Status-Public_Beta-orange)](https://github.com/nicenews/newslyfe-demo)
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-green?logo=google-play)](https://play.google.com/store/apps/details?id=com.newslyfe.mobile)
 
 <!-- 1. APP SZEKCIÓ (HERO KÉP) -->
 <h2 align="center">📱 Mobile Experience</h2>
