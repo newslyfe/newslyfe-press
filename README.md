@@ -14,10 +14,10 @@
       <img src="docs/screenshots/1-k-globalnews.png" alt="Global News" style="width:90%;max-width:200px;" />
     </td>
     <td align="center" width="33%">
-      <img src="docs/screenshots/2-AI News Analyst.png" alt="AI News Analyst" style="width:90%;max-width:200px;" />
+      <img src="docs/screenshots/2-AI%20News%20Analyst.png" alt="AI News Analyst" style="width:90%;max-width:200px;" />
     </td>
     <td align="center" width="33%">
-      <img src="docs/screenshots/3-Smart alerts.png" alt="Smart Alerts" style="width:90%;max-width:200px;" />
+      <img src="docs/screenshots/3-Smart%20alerts.png" alt="Smart Alerts" style="width:90%;max-width:200px;" />
     </td>
   </tr>
 </table>
@@ -61,7 +61,8 @@ This is a web application that brings native software functionality to the brows
       <p align="center">
         <strong>Central Workspace</strong>
       </p>
-      <a href="docs/screenshots/main-screen-1.png"        <img src="docs/screenshots/main-screen-1.png" alt="NewsLyfe main view"/>
+      <a href="docs/screenshots/main-screen-1.png">
+        <img src="docs/screenshots/main-screen-1.png" alt="NewsLyfe main view" style="width:90%;max-width:520px;" />
       </a>
     </td>
     <td width="50%" valign="top">
@@ -69,7 +70,7 @@ This is a web application that brings native software functionality to the brows
         <strong>Real-time Filtering</strong>
       </p>
       <a href="docs/screenshots/main-screen-2.png">
-        <img src="docs/screenshots/main-screen-2.png" alt="NewsLyfe filtering options"/>
+        <img src="docs/screenshots/main-screen-2.png" alt="NewsLyfe filtering options" style="width:90%;max-width:520px;" />
       </a>
     </td>
   </tr>
@@ -79,7 +80,7 @@ This is a web application that brings native software functionality to the brows
         <strong>Advanced Customization</strong>
       </p>
       <a href="docs/screenshots/main-screen-3.png">
-        <img src="docs/screenshots/main-screen-3.png" alt="NewsLyfe customization panel"/>
+        <img src="docs/screenshots/main-screen-3.png" alt="NewsLyfe customization panel" style="width:90%;max-width:800px;" />
       </a>
     </td>
   </tr>
