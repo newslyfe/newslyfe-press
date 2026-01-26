@@ -4,11 +4,11 @@
   <img src="docs/logo/logo.png" alt="NewsLyfe Logo" width="120" />
 </p>
 
-Real-time news aggregator handling ~100,000 articles daily from 7,000 sources across 200 countries.
+International news aggregator and analyst. Over 100,000 articles within a 24-hour window, from nearly 7,000 sources across ~200 countries.
 
-**Core principle:** Chronological display only. No ranking, no recommendations, no algorithmic filtering.
+**Core principle:** Chronological display, no algorithms. Full control over your news feed.
 
-**Tech stack:** React, IndexedDB, tab-based workspace architecture. Available as Android app and desktop web/Electron client.
+**Tech:** React, IndexedDB, tab-based workspace. Android app (stable) + Desktop (beta).
 
 [![Public Beta](https://img.shields.io/badge/Status-Public_Beta-orange)](https://github.com/nicenews/newslyfe-demo)
 [![Google Play](https://img.shields.io/badge/Google_Play-Download-green?logo=google-play)](https://play.google.com/store/apps/details?id=com.newslyfe.mobile)
