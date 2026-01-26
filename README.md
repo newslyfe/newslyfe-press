@@ -6,6 +6,17 @@
 
 <h1 align="center">NewsLyfe</h1>
 <p align="center">
+  Algorithm-free, chronological news aggregator.<br>
+  Global sources. User control.
+</p>
+
+<p align="center">
+  NewsLyfe displays news without ranking or recommendation algorithms.<br>
+  Content arrives chronologically, directly from sources.<br>
+  You decide what to follow and filter. No registration required.
+</p>
+
+<p align="center">
   <strong>International News Aggregator &amp; Analyst</strong><br>
   Chronological. Algorithm-free. Privacy-focused.
 </p>
