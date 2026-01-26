@@ -27,7 +27,7 @@
 <h2 align="center">📱 Mobile Experience</h2>
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile">
-    <img src="docs/screenshots/play-n-K.png" alt="NewsLyfe Mobile App" width="100%" />
+    <img src="docs/screenshots/1-n-k.png" alt="NewsLyfe Mobile App" width="100%" />
   </a>
 </p>
 
@@ -53,7 +53,7 @@
 
 <!-- Visual Feed (átmenet) - teljes szélességű lila háttér kép -->
 <p align="center">
-  <img src="docs/screenshots/play-n-K.png" alt="Visual news feed" style="width:100%;height:auto;display:block;margin:0 auto;" />
+  <img src="docs/screenshots/1-n-k.png" alt="Visual news feed" style="width:100%;height:auto;display:block;margin:0 auto;" />
 </p>
 
 [![Status](https://img.shields.io/badge/status-in_development-orange)](https://github.com/newslyfe/newslyfe-demo)
