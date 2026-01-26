@@ -1,7 +1,30 @@
 # NewsLyfe — News Workspace (Developer Preview)
 
 <p align="center">
-  <img src="docs/banner/banner-coming-soon.png" alt="Coming Soon Banner" width="80%">
+  <img src="docs/logo/logo.png" alt="NewsLyfe Logo" width="40%" />
+</p>
+
+<!-- Mobile Showcase: three vertical images in a single row -->
+<p align="center">
+  <strong>Mobile Showcase</strong>
+</p>
+<table width="100%">
+  <tr>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/1-k-globalnews.png" alt="Global News" style="width:90%;max-width:200px;" />
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/2-AI News Analyst.png" alt="AI News Analyst" style="width:90%;max-width:200px;" />
+    </td>
+    <td align="center" width="33%">
+      <img src="docs/screenshots/3-Smart alerts.png" alt="Smart Alerts" style="width:90%;max-width:200px;" />
+    </td>
+  </tr>
+</table>
+
+<!-- Visual Feed (átmenet) - teljes szélességű lila háttér kép -->
+<p align="center">
+  <img src="docs/screenshots/play-n-K.png" alt="Visual news feed" style="width:100%;height:auto;display:block;margin:0 auto;" />
 </p>
 
 [![Status](https://img.shields.io/badge/status-in_development-orange)](https://github.com/newslyfe/newslyfe-demo)
@@ -38,8 +61,7 @@ This is a web application that brings native software functionality to the brows
       <p align="center">
         <strong>Central Workspace</strong>
       </p>
-      <a href="docs/screenshots/main-screen-1.png">
-        <img src="docs/screenshots/main-screen-1.png" alt="NewsLyfe main view"/>
+      <a href="docs/screenshots/main-screen-1.png"        <img src="docs/screenshots/main-screen-1.png" alt="NewsLyfe main view"/>
       </a>
     </td>
     <td width="50%" valign="top">
