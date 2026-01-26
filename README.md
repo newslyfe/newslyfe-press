@@ -33,6 +33,14 @@
 
 <!-- APP FEATURES -->
 ### ✨ Key Mobile Features
+
+<p align="center">
+  <img src="docs/screenshots/1-k-globalnews.png" alt="Global News" width="24%" />
+  <img src="docs/screenshots/2-ai-news-analyst.png" alt="AI News Analyst" width="24%" />
+  <img src="docs/screenshots/3-smart-alerts.png" alt="Smart Alerts" width="24%" />
+  <img src="docs/screenshots/4-alerts-in-your-language.png" alt="Alerts in your language" width="24%" />
+</p>
+
 - 🌍 **Global Reach:** Content from nearly 200 countries.
 - 🗣️ **Instant Translation:** Translate article previews with one tap.
 - 🔔 **Smart Alerts:** Keyword-based notifications in 90+ languages.
@@ -51,9 +59,9 @@
   <img src="docs/screenshots/web-full.png" alt="Desktop Interface" width="70%" style="max-width:900px;" />
 </p>
 
-<!-- Visual Feed (átmenet) - teljes szélességű lila háttér kép -->
+<!-- Visual Feed -->
 <p align="center">
-  <img src="docs/screenshots/1-n-k.png" alt="Visual news feed" style="width:100%;height:auto;display:block;margin:0 auto;" />
+  <img src="docs/screenshots/f-3-tab.png" alt="Visual news feed - multi-country workspace" width="100%" />
 </p>
 
 [![Status](https://img.shields.io/badge/status-in_development-orange)](https://github.com/newslyfe/newslyfe-demo)
