@@ -82,43 +82,6 @@ This is a web application that brings native software functionality to the brows
 
 ---
 
-## 🖼️ In Action
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <p align="center">
-        <strong>Central Workspace</strong>
-      </p>
-      <a href="docs/screenshots/main-screen-1.png">
-        <img src="docs/screenshots/main-screen-1.png" alt="NewsLyfe main view" style="width:90%;max-width:520px;" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <p align="center">
-        <strong>Real-time Filtering</strong>
-      </p>
-      <a href="docs/screenshots/main-screen-2.png">
-        <img src="docs/screenshots/main-screen-2.png" alt="NewsLyfe filtering options" style="width:90%;max-width:520px;" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" valign="top">
-       <p align="center">
-        <strong>Advanced Customization</strong>
-      </p>
-      <a href="docs/screenshots/main-screen-3.png">
-        <img src="docs/screenshots/main-screen-3.png" alt="NewsLyfe customization panel" style="width:90%;max-width:800px;" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-*(The user interface is currently under active development.)*
-
----
-
 ## ⚙️ Technology Stack
 
 The platform is designed for performance and scalability. Central state management is handled by a custom, tab-based logic (`TabController`), ensuring modular and efficient operation.
