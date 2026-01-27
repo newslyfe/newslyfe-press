@@ -10,8 +10,6 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 
 **Tech:** React, IndexedDB, tab-based workspace. Android app (stable) + Desktop (beta).
 
-//----------------------  eddig kész!!!////////////////
-
 ---
 
 ## Problem
@@ -26,8 +24,6 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 - 100k+ articles in rolling 24h window, zero algorithmic manipulation
 - Real-time translation + keyword alerts in 90+ languages
 - One interface, all sources
-
-//----------------------  Problem + Solution KÉSZ!!!////////////////
 
 ---
 
@@ -48,8 +44,6 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 - Smooth scrolling through thousands of articles
 
 **Why not server-side?** Zero manipulation means zero server-side ranking. Client-side filtering = user control.
-
-//----------------------  Technical Implementation KÉSZ!!!////////////////
 
 ---
 
@@ -93,8 +87,6 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 - Native desktop performance via Electron
 
 [![Public Beta](https://img.shields.io/badge/Status-Public_Beta-orange)](https://github.com/nicenews/newslyfe-demo)
-
-//----------------------  Platforms KÉSZ!!!////////////////
 
 ---
 
