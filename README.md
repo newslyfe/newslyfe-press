@@ -39,9 +39,8 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 - One-tap translation for any article
 
 **Performance at scale:**
-- Virtualized lists + lazy loading handle massive feeds
-- Incremental indexing without UI blocking
-- Smooth scrolling through thousands of articles
+- Virtualized FlatList rendering (only visible items)
+- Paginated API responses for fast loading
 
 **Why not server-side?** Zero manipulation means zero server-side ranking. Client-side filtering = user control.
 
