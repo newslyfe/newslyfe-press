@@ -8,7 +8,7 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 
 **Core principle:** Chronological display, no algorithms. Full control over your news feed.
 
-**Tech:** React, IndexedDB, tab-based workspace. Android app (stable) + Desktop (beta).
+**Tech:** React, PostgreSQL, tab-based workspace. Android app (stable) + Desktop (beta).
 
 ---
 
@@ -105,7 +105,6 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 **Key features:**
 - Tab-based workspace with persistent state
 - Advanced filtering by country, language, keyword
-- Bulk operations and saved searches
 - Native desktop performance via Electron
 
 [![Public Beta](https://img.shields.io/badge/Status-Public_Beta-orange)](https://github.com/nicenews/newslyfe-demo)
@@ -115,7 +114,7 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 ## Technology Stack
 
 - **Frontend:** React + Context API
-- **Storage:** IndexedDB (client-side persistence)
+- **Storage:** PostgreSQL (server-side)
 - **State:** Custom `TabController` for tab management
 - **Platforms:** Android (stable) + Desktop Web/Electron (beta) + iOS (planned)
 
