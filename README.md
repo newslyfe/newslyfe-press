@@ -10,19 +10,58 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 
 **Tech:** React, IndexedDB, tab-based workspace. Android app (stable) + Desktop (beta).
 
-[![Public Beta](https://img.shields.io/badge/Status-Public_Beta-orange)](https://github.com/nicenews/newslyfe-demo)
-[![Google Play](https://img.shields.io/badge/Google_Play-Download-green?logo=google-play)](https://play.google.com/store/apps/details?id=com.newslyfe.mobile)
+//----------------------  eddig kész!!!////////////////
 
-<!-- 1. APP SZEKCIÓ (HERO KÉP) -->
-<h2 align="center">📱 Mobile Experience</h2>
+---
+
+## Problem
+
+- 7000+ sources, 200 countries, 90+ languages — fragmented and unmanageable
+- Existing aggregators use algorithms that hide, rank, or filter content
+- No single interface for global news without manipulation
+
+## Solution
+
+- Chronological-only feed with client-side filtering
+- 100k+ articles in rolling 24h window, zero algorithmic manipulation
+- Real-time translation + keyword alerts in 90+ languages
+- One interface, all sources
+
+//----------------------  Problem + Solution KÉSZ!!!////////////////
+
+---
+
+## Technical Implementation
+
+**Client-side architecture for algorithmic neutrality:**
+- IndexedDB stores 100k+ articles locally — no server-side ranking or tracking
+- Tab-based workspace with persistent state across sessions
+- Privacy by design: zero profiling, all filtering client-side
+
+**90+ language support:**
+- Real-time translation engine
+- Keyword alerts in any language
+
+**Performance at scale:**
+- Virtualized lists + lazy loading handle massive feeds
+- Incremental indexing without UI blocking
+- Smooth scrolling through thousands of articles
+
+**Why not server-side?** Zero manipulation means zero server-side ranking. Client-side filtering = user control.
+
+//----------------------  Technical Implementation KÉSZ!!!////////////////
+
+---
+
+## Platforms
+
+### 📱 Mobile (Android) - Stable Release
+
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile">
     <img src="docs/screenshots/1-n-k.png" alt="NewsLyfe Mobile App" width="100%" />
   </a>
 </p>
-
-<!-- APP FEATURES -->
-### ✨ Key Mobile Features
 
 <p align="center">
   <img src="docs/screenshots/2-k-globalnews.png" alt="Global News" width="24%" />
@@ -31,60 +70,40 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
   <img src="docs/screenshots/5-alert-lang.png" alt="Alerts in your language" width="24%" />
 </p>
 
-- 🌍 **Global Reach:** Content from nearly 200 countries.
-- 🗣️ **Instant Translation:** Translate article previews with one tap.
-- 🔔 **Smart Alerts:** Keyword-based notifications in 90+ languages.
-- 🤖 **AI Analysis (Experimental):** Ask questions about articles for instant context.
+**Key features:**
+- 🌍 Global reach: 200 countries
+- 🗣️ Instant translation with one tap
+- 🔔 Smart alerts in 90+ languages
+- 🤖 AI analysis (experimental)
 
-<br>
-<br>
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-green?logo=google-play)](https://play.google.com/store/apps/details?id=com.newslyfe.mobile)
 
-<!-- 2. WEB/DESKTOP SZEKCIÓ (ELKÜLÖNÍTVE) -->
-<h2 align="center">🖥️ Desktop Workspace</h2>
-<p align="center">
-  The desktop version brings native software functionality to the browser for power users.
-</p>
+---
+
+### 🖥️ Desktop (Web/Electron) - Public Beta
 
 <p align="center">
-  <img src="docs/screenshots/web-full.png" alt="Desktop Interface" width="70%" style="max-width:900px;" />
+  <img src="docs/screenshots/web-full.png" alt="Desktop Interface" width="70%" />
 </p>
 
-[![Status](https://img.shields.io/badge/status-in_development-orange)](https://github.com/newslyfe/newslyfe-demo)
-[![Technology](https://img.shields.io/badge/built_with-React%20%7C%20Electron-blue)](https://reactjs.org/)
-[![License](https://img.shields.io/badge/license-Proprietary-red)](./LICENSE)
+**Key features:**
+- Tab-based workspace with persistent state
+- Advanced filtering by country, language, keyword
+- Bulk operations and saved searches
+- Native desktop performance via Electron
 
-> Build your own, personal news hub.
+[![Public Beta](https://img.shields.io/badge/Status-Public_Beta-orange)](https://github.com/nicenews/newslyfe-demo)
 
----
-
-## 🎯 Problem & Solution
-
-The global news stream is chaotic and unmanageable with traditional tools. NewsLyfe organizes this information flood into a focused, high-performance workspace, giving users back control. Nearly 100,000 new articles arrive daily from almost 7,000 sources—all in a single, manageable interface.
-
-**The platform is algorithmically neutral.** We do not rank, highlight, or remove news. Display is strictly chronological; content and freshness are the responsibility of the source domains. Our goal is to provide a clean, manipulation-free tool for users.
-
-This is a web application that brings native software functionality to the browser. Responsiveness, customization, persistence, and modularity go far beyond what a typical website offers.
+//----------------------  Platforms KÉSZ!!!////////////////
 
 ---
 
-## ✨ Key Features
+## Technology Stack
 
-- ✅ **Tab-based Workspace:** Dynamically create, organize, and persist tabs—each representing a separate workflow (news feed, search, etc.).
-- ✅ **Real-time Filtering & Search:** Instantly narrow results by country, language, and keywords using a filter pipeline.
-- ✅ **Unified Interface:** Manage text articles and news videos from various sources on a single, clean interface.
-
----
-
-## ⚙️ Technology Stack
-
-The platform is designed for performance and scalability. Central state management is handled by a custom, tab-based logic (`TabController`), ensuring modular and efficient operation.
-
-**Highlighted stack:**
-- **Frontend:** React
-- **State management:** Context API, `TabController`
-- **Local storage:** IndexedDB (for workspace persistence)
-- **Desktop version:** Electron
-- **Mobile platforms (in preparation):** iOS & Android
+- **Frontend:** React + Context API
+- **Storage:** IndexedDB (client-side persistence)
+- **State:** Custom `TabController` for tab management
+- **Platforms:** Android (stable) + Desktop Web/Electron (beta) + iOS (planned)
 
 ---
 
