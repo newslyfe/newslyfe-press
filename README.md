@@ -34,9 +34,9 @@ International news aggregator and analyst. Over 100,000 articles within a 24-hou
 - Tab-based workspace with persistent state across sessions
 - Privacy by design: zero profiling, all filtering client-side
 
-**90+ language support:**
-- Real-time translation engine
-- Keyword alerts in any language
+**Translation:**
+- Google Translate API integration
+- One-tap translation for any article
 
 **Performance at scale:**
 - Virtualized lists + lazy loading handle massive feeds
