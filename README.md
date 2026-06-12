@@ -17,9 +17,7 @@ A real-time global news infrastructure built from tens of thousands of daily sou
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/news-copter-2.png" alt="RSS Feed" width="380" />
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/app-copter1.jpg" alt="NewsLyfe App" width="200" />
+  <img src="docs/screenshots/app-cop-2.png" alt="NewsLyfe App" width="220" />
 </p>
 
 ---
