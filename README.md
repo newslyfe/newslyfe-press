@@ -7,17 +7,19 @@
 A real-time global news infrastructure built from tens of thousands of daily sources, creating a unified chronological global news feed. The platform combines global news aggregation, a geopolitical hotspot map, and a professional editorial workspace where users can create reports and publications from live events — on mobile or web. Follow the news — or write your own story.
 
 <p align="center">
-  <img src="docs/screenshots/press-copter1.png" alt="NewsLyfe Press" width="780" />
+  <img src="docs/screenshots/n-k-1.png" alt="NewsLyfe Newsroom Editor" width="780" />
 </p>
 
 <p align="center"><a href="https://newslyfe.com/how-it-works">Write in the editor. See the result live.</a></p>
 
 <p align="center">
-  <img src="docs/screenshots/news-copter-2.png" alt="Press Editor" width="780" />
+  <img src="docs/screenshots/press-copter1.png" alt="NewsLyfe Press" width="780" />
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/app-copter1.jpg" alt="NewsLyfe App" width="260" />
+  <img src="docs/screenshots/news-copter-2.png" alt="RSS Feed" width="380" />
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/app-copter1.jpg" alt="NewsLyfe App" width="200" />
 </p>
 
 ---
