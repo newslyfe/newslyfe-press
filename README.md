@@ -8,6 +8,8 @@
   <img src="docs/screenshots/n-k-1.png" alt="Press Editor" width="780" />
 </p>
 
+<p align="center"><a href="https://newslyfe.com/how-it-works">Write in the editor. See the result live.</a></p>
+
 <p align="center">
   <img src="docs/screenshots/english-images1.png" alt="NewsLyfe App" width="160" />
   &nbsp;
