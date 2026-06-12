@@ -4,6 +4,12 @@
 
 **Live demo:** [newslyfe.github.io/newslyfe-press](https://newslyfe.github.io/newslyfe-press/)
 
+<p align="center">
+  <img src="docs/screenshots/english-images1.png" alt="NewsLyfe App" width="260" />
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/n-k-1.png" alt="Press Editor" width="500" />
+</p>
+
 ---
 
 ## What is NewsLyfe Press?
