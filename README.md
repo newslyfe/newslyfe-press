@@ -5,9 +5,17 @@
 **Live demo:** [newslyfe.github.io/newslyfe-press](https://newslyfe.github.io/newslyfe-press/)
 
 <p align="center">
-  <img src="docs/screenshots/english-images1.png" alt="NewsLyfe App" width="260" />
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/n-k-1.png" alt="Press Editor" width="500" />
+  <img src="docs/screenshots/n-k-1.png" alt="Press Editor" width="780" />
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/english-images1.png" alt="NewsLyfe App" width="160" />
+  &nbsp;
+  <img src="docs/screenshots/english-images6.png" alt="Real-Time Feed" width="160" />
+  &nbsp;
+  <img src="docs/screenshots/english-images3.png" alt="OSINT Map" width="160" />
+  &nbsp;
+  <img src="docs/screenshots/english-images2.png" alt="Newsroom Editor" width="160" />
 </p>
 
 ---
