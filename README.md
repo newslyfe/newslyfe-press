@@ -16,9 +16,20 @@ A real-time global news infrastructure built from tens of thousands of daily sou
   <img src="docs/screenshots/press-copter1.png" alt="NewsLyfe Press" width="780" />
 </p>
 
-<p align="center">
-  <img src="docs/screenshots/app-cop-2.png" alt="NewsLyfe App" width="220" />
-</p>
+<table><tr>
+<td valign="middle" width="55%">
+
+### 📱 NewsLyfe on Android
+
+Published articles appear instantly in the live feed — read by users worldwide in real time.
+
+**[Available on Google Play](https://play.google.com/store/apps/details?id=com.newslyfe.mobile)**
+
+</td>
+<td align="center" width="45%">
+  <img src="docs/screenshots/app-copter-2.png" alt="NewsLyfe App" width="220" />
+</td>
+</tr></table>
 
 ---
 
