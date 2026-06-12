@@ -1,49 +1,473 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
-    
-    <!-- Core SEO -->
-    <title>Newslyfe - World News Aggregator | Breaking News, Global RSS Feeds</title>
-    <meta name="description" content="Newslyfe is your global news aggregator. Breaking headlines, RSS feeds & top stories from 7000+ trusted sources. Personalized news from around the world.">
-    <meta name="keywords" content="news aggregator, world news, breaking news, international news, global headlines, RSS feeds, newslyfe">
-    <meta name="author" content="Newslyfe Team">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://newslyfe.com/" />
-    
-    <!-- Sitemap -->
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NewsLyfe Press</title>
+  <link rel="icon" type="image/png" href="docs/logo/logo.png" />
+  <meta name="description" content="Real-time global news from 190+ countries — and a professional editorial workspace to write, review, and publish from anywhere." />
+  <link rel="canonical" href="https://newslyfe.github.io/newslyfe-press/" />
+  <meta property="og:title" content="NewsLyfe Press" />
+  <meta property="og:description" content="Real-time global news from 190+ countries — and a professional editorial workspace to write, review, and publish from anywhere." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://newslyfe.github.io/newslyfe-press/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NewsLyfe Press" />
+  <meta name="twitter:description" content="Real-time global news from 190+ countries — and a professional editorial workspace to write, review, and publish from anywhere." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "NewsLyfe Press",
+    "operatingSystem": "Android, Web",
+    "applicationCategory": "NewsApplication",
+    "description": "Real-time global news from 190+ countries and a professional editorial workspace to write, review, and publish from anywhere.",
+    "url": "https://newslyfe.github.io/newslyfe-press/",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "publisher": { "@type": "Organization", "name": "NewsLyfe Press", "email": "newslyfe.team@gmail.com" }
+  }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    <!-- Open Graph (Facebook, etc.) -->
-    <meta property="og:title" content="Newslyfe - World News Aggregator">
-    <meta property="og:description" content="Newslyfe is your global news aggregator. Breaking headlines, RSS feeds & top stories from 7000+ trusted sources. Personalized news from around the world.">
-    <meta property="og:image" content="https://newslyfe.com/social-preview.png" />
-    <meta property="og:url" content="https://newslyfe.com/">
-    <meta property="og:type" content="website">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Newslyfe - World News Aggregator">
-    <meta name="twitter:description" content="Newslyfe is your global news aggregator. Breaking headlines, RSS feeds & top stories from 7000+ trusted sources. Personalized news from around the world.">
-    <meta name="twitter:image" content="https://newslyfe.com/social-preview.png" />
+    :root {
+      --bg: #0a0a0f;
+      --bg2: #111118;
+      --accent: #e63946;
+      --text: #f0f0f5;
+      --muted: #8888aa;
+      --border: #1e1e2e;
+    }
 
-    <!-- Hreflang (Example only for demo repository) -->
-    <link rel="alternate" hreflang="x-default" href="https://newslyfe.com/" />
-    <link rel="alternate" hreflang="en" href="https://newslyfe.com/" />
-    <link rel="alternate" hreflang="de" href="https://newslyfe.com/c/germany" />
-    <link rel="alternate" hreflang="fr" href="https://newslyfe.com/c/france" />
-    
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 40px;
+      background: rgba(10,10,15,0.9);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-brand { font-size: 1.15rem; font-weight: 800; letter-spacing: -0.5px; }
+    .nav-brand span { color: var(--accent); }
+    .nav-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 8px 20px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    /* SECTIONS */
+    section { padding: 100px 40px; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .alt-bg { background: var(--bg2); }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: 120px;
+      background: radial-gradient(ellipse at 60% 40%, #1a1a2e 0%, var(--bg) 70%);
+    }
+    .hero .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -1px;
+      margin-bottom: 20px;
+    }
+    .hero-text h1 span { color: var(--accent); }
+    .hero-text p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      margin-bottom: 32px;
+      max-width: 440px;
+    }
+    .btn-group { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent);
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      color: var(--text);
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border: 1px solid var(--border);
+    }
+    .hero-img img {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 20px;
+      display: block;
+      margin: 0 auto;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+    }
+
+    /* LABELS & TITLES */
+    .label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+    .title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+    .desc {
+      font-size: 1rem;
+      color: var(--muted);
+      max-width: 480px;
+      margin-bottom: 48px;
+    }
+
+    /* TWO COL */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .two-col.reverse .text-side { order: 2; }
+    .two-col.reverse .img-side { order: 1; }
+
+    .img-side img {
+      width: 100%;
+      max-width: 210px;
+      border-radius: 22px;
+      display: block;
+      margin: 0 auto;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.55);
+    }
+
+    /* PRESS SECTION */
+    .press-grid {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 32px;
+      align-items: center;
+    }
+    .press-grid img { border-radius: 18px; width: 100%; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+
+    /* MAP SECTION */
+    .map-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 48px;
+    }
+    .map-grid img { width: 100%; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      background: radial-gradient(ellipse at center, #1a1a2e 0%, var(--bg) 70%);
+    }
+    .cta .title { font-size: 2.5rem; }
+    .cta .desc { margin: 0 auto 40px; }
+    .cta .btn-group { justify-content: center; }
+    .cta-note { margin-top: 18px; font-size: 0.85rem; color: var(--muted); }
+    .cta-note a { color: var(--muted); }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      background: var(--bg2);
+      padding: 60px 40px 32px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto 40px;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 40px;
+    }
+    .footer-brand p { color: var(--muted); margin-bottom: 16px; max-width: 260px; line-height: 1.5; }
+    .footer-store {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.82rem;
+    }
+    .footer-col { display: flex; flex-direction: column; gap: 8px; }
+    .footer-col-title { color: var(--text); font-weight: 700; margin-bottom: 4px; font-size: 0.82rem; letter-spacing: 1px; text-transform: uppercase; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; }
+    .footer-col a:hover { color: var(--text); }
+    .footer-bottom {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    @media (max-width: 768px) {
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+      .footer-brand { grid-column: 1 / -1; }
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav { padding: 14px 20px; }
+      section { padding: 80px 20px; }
+      .hero .container { grid-template-columns: 1fr; text-align: center; }
+      .hero-text p { margin: 0 auto 32px; }
+      .btn-group { justify-content: center; }
+      .hero-img img { max-width: 260px; }
+      .two-col, .two-col.reverse .text-side, .two-col.reverse .img-side { grid-template-columns: 1fr; }
+      .two-col { display: flex; flex-direction: column; }
+      .two-col.reverse .text-side { order: 0; }
+      .two-col.reverse .img-side { order: 1; }
+      .press-grid { grid-template-columns: 1fr; }
+      .press-grid img:first-child { max-width: 220px; margin: 0 auto; }
+      .map-grid { grid-template-columns: 1fr; }
+      .title { font-size: 1.8rem; }
+      .cta .title { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-brand">NewsLyfe <span>Press</span></div>
+    <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile" class="nav-btn" target="_blank" rel="noopener noreferrer">Get the App</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h1>Read News.<br/>Or <span>Write Your</span><br/>Own Story.</h1>
+        <p>Real-time global news from 190+ countries — and a professional editorial workspace to write, review, and publish from anywhere.</p>
+        <div class="btn-group">
+          <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile" class="btn-primary" target="_blank" rel="noopener noreferrer">▶ Get it on Google Play</a>
+          <a href="mailto:newslyfe.team@gmail.com" class="btn-secondary">Contact Us</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="docs/screenshots/english-images1.png" alt="NewsLyfe App" />
+      </div>
+    </div>
+  </section>
+
+  <!-- PRESS / NEWSROOM -->
+  <section class="alt-bg">
+    <div class="container">
+      <div class="two-col" style="margin-bottom: 80px;">
+        <div class="text-side">
+          <p class="label">NewsLyfe Press</p>
+          <h2 class="title">Write Freely.<br/>Publish Professionally.</h2>
+          <div class="desc">Manage your articles in your own digital newsroom. Create an author profile, submit for editorial review, and track your article from draft to publication — on mobile or web.</div>
+        </div>
+        <div class="img-side">
+          <img src="docs/screenshots/english-images2.png" alt="Newsroom mobile editor" />
+        </div>
+      </div>
+      <div class="two-col" style="margin-bottom: 80px;">
+        <div class="text-side">
+          <p class="label">Web Editor</p>
+          <h2 class="title">Write and Preview<br/>in Real Time.</h2>
+          <div class="desc">The built-in editor shows a live preview of your article as you write — exactly as it will appear when published.</div>
+        </div>
+        <div class="img-side" style="max-width:100%;">
+          <img src="docs/screenshots/n-k-1.png" alt="Press web editor with live preview" style="max-width:100%;border-radius:12px;" />
+        </div>
+      </div>
+      <div class="two-col">
+        <div class="text-side">
+          <p class="label">Published Result</p>
+          <h2 class="title">Your Article.<br/>Live on NewsLyfe Press.</h2>
+          <div class="desc">Approved articles appear on the NewsLyfe Press homepage, in RSS feeds, on external platforms, and in search engines — reaching a global audience.</div>
+        </div>
+        <div class="img-side" style="max-width:100%;">
+          <img src="docs/screenshots/press-1.png" alt="NewsLyfe Press published articles" style="max-width:100%;border-radius:12px;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REAL-TIME FEED -->
+  <section>
+    <div class="container">
+      <div class="two-col">
+        <div class="text-side">
+          <p class="label">Live Feed</p>
+          <h2 class="title">Real-Time News.<br/>No Algorithm.</h2>
+          <div class="desc">Chronological-only feed with zero manipulation. Follow breaking events from Telegram channels, RSS feeds, and live sources the moment they happen.</div>
+        </div>
+        <div class="img-side">
+          <img src="docs/screenshots/english-images6.png" alt="Real-Time Feed" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIA FEEDS -->
+  <section class="alt-bg">
+    <div class="container">
+      <div class="two-col reverse">
+        <div class="text-side">
+          <p class="label">Media Feeds</p>
+          <h2 class="title">Every Source.<br/>One Place.</h2>
+          <div class="desc">RSS, Telegram, Reddit, X, YouTube, Hacker News, DEV, and live channels — all integrated into a single unified feed you control.</div>
+        </div>
+        <div class="img-side">
+          <img src="docs/screenshots/english-images5.png" alt="Media Feeds" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section>
+    <div class="container">
+      <div class="two-col" style="margin-bottom: 80px;">
+        <div class="text-side">
+          <p class="label">Intelligence Map</p>
+          <h2 class="title">The World. Live.</h2>
+          <div class="desc">An interactive OSINT map with live news pins, conflict zones, and satellite imagery. Powered by ArcGIS and Sentinel Hub.</div>
+        </div>
+        <div class="img-side">
+          <img src="docs/screenshots/english-images3.png" alt="Live OSINT Map" />
+        </div>
+      </div>
+      <div class="two-col" style="margin-bottom: 80px;">
+        <div class="text-side">
+          <p class="label">Global Hotspots</p>
+          <h2 class="title">Follow Every<br/>Active Conflict Zone.</h2>
+          <div class="desc">Syria, Ukraine, Russia, United States — track the regions that matter most with live regional feeds and real-time updates.</div>
+        </div>
+        <div class="img-side">
+          <img src="docs/screenshots/english-images7.png" alt="Global Hotspots" />
+        </div>
+      </div>
+      <div class="two-col">
+        <div class="text-side">
+          <p class="label">Deep Data Layers</p>
+          <h2 class="title">Military Bases.<br/>Nuclear Sites. Sanctions.</h2>
+          <div class="desc">Toggle intelligence layers — military bases, conflict zones, nuclear sites, critical minerals, financial centers, and active sanctions — all on one map.</div>
+        </div>
+        <div class="img-side">
+          <img src="docs/screenshots/english-images8.png" alt="Deep Data Layers" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO NEWS -->
+  <section class="alt-bg">
+    <div class="container">
+      <div class="two-col">
+        <div class="text-side">
+          <p class="label">Video Integration</p>
+          <h2 class="title">Watch Video<br/>News Inline.</h2>
+          <div class="desc">YouTube channels integrated directly into the feed. Watch breaking news footage without leaving the app.</div>
+        </div>
+        <div class="img-side">
+          <img src="docs/screenshots/english-images4.png" alt="Watch Video News" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <p class="label">Get Started</p>
+      <h2 class="title">Follow the News —<br/>or Write Your Own Story.</h2>
+      <div class="desc">Available on Android. Web version in public beta.</div>
+      <div class="btn-group">
+        <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile" class="btn-primary" target="_blank" rel="noopener noreferrer">▶ Download on Google Play</a>
+      </div>
+      <p class="cta-note">Questions? <a href="mailto:newslyfe.team@gmail.com">newslyfe.team@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="nav-brand" style="font-size:1.1rem;margin-bottom:10px;">NewsLyfe <span style="color:var(--accent)">Press</span></div>
+        <p>Independent journalism platform and publishing tools for writers worldwide.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.newslyfe.mobile" target="_blank" rel="noopener noreferrer" class="footer-store">▶ Android App</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Categories</div>
+        <a href="#">World</a><a href="#">Politics</a><a href="#">Economy</a>
+        <a href="#">Business</a><a href="#">Technology</a><a href="#">Science</a>
+        <a href="#">Health</a><a href="#">Environment</a><a href="#">Energy</a>
+        <a href="#">Culture</a><a href="#">Sport</a><a href="#">Opinion</a>
+        <a href="#">Military</a><a href="#">Law</a><a href="#">Society</a><a href="#">Blog</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Publish</div>
+        <a href="#">How to publish</a>
+        <a href="#">Add images</a>
+        <a href="#">Embed video</a>
+        <a href="#">Editorial guidelines</a>
+        <a href="#">Terms of use</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Platform</div>
+        <a href="#">Guide &amp; docs</a>
+        <a href="#">AI providers</a>
+        <a href="#">Translation</a>
+        <a href="#">Email setup</a>
+        <a href="#">Satellite maps</a>
+        <a href="#">Newslyfe.com</a>
+        <a href="#">Terms of use</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025–2026 NewsLyfe Press — All rights reserved</div>
+  </footer>
+
+</body>
 </html>
