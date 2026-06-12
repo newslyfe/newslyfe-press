@@ -59,4 +59,5 @@ NewsLyfe Press is a real-time global news platform combining three core experien
 
 ## Contact
 
-📧 [newslyfe.team@gmail.com](mailto:newslyfe.team@gmail.com)
+📧 [newslyfe.team@gmail.com](mailto:newslyfe.team@gmail.com)  
+📧 [support@newslyfe.com](mailto:support@newslyfe.com)
